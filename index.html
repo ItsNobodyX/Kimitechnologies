@@ -1,0 +1,2535 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kimi Technologies — Web Development, SEO & Content Strategy</title>
+<meta name="description" content="Independent studio building fast websites, improving search visibility and shaping content strategy. Plus five free, privacy-first browser tools." />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#08090c" media="(prefers-color-scheme: dark)" />
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAFaElEQVR4nLVWbYxU5RV+zvu+d+7O7Owyu1nR4BZHQfwANUYJadI2hT9Y+KGmEf1houWHjTWaqFGDX7s1+BGFxiY2sTGWlp82MU0xrKZiE9I2ookBUYpS6YossMAO7rg7M/fjPU9/3NlZ9mMKP+Qk9+be5N7znHOe55z3CElcSDMX1DsAN+tdZ+YjgMjsf0i0y3ru99MAWanMHHezzCutmQva1iTjgGwif3M6rkXMnqm8pNctKDgCmUcljGCi4Y9V0iwNgWTZWINGpN0Fs/iisOWtmUH225FT0a9eP7r7341EQdAaqY+nbz566S/W9HlPZyWL/dUdJ7f+ZWys5gmQNCIErJVGgz0F7Hym/IO+sBUQAJfhR4lu2PL1nn213IKABCACIUXZ/DL1dFZefPvEk2+Mmk7nbJaQ8YCzqNe0VJCdz5ZXLi1m4bbMqNII9nw5uedAI9+TU4oSSmRRCAggVTgrf9g19uS2k4WeIAyyAEREnDNRJKWCeW+wvHJpMVXOYtFl3J6ueiG84uy2yJ5IdAQy9Mn4fa+NhAXrlYR4CsicQ6OhpTzeHSzfvLQzy3IWyU0VicynPEGqEMFHhybufPkIrKUIqARAWIMoQinPoYHyyjbe0Wo0Tl+ZNiAAPLvy5tR4ctvm4YlIrBPvqRRPcRZJzK6QQ4PlVcuK7bxPA4CAarOFCAJeAWsm6umGLUeOn2YuNCCNQIDAIG6wK+TQwGWrrvx/3meUaFpZoECSmMuvzP1x15l/HYiDok19kz3npF5jKY93Bso/vOoc3nFWJ8+ggEQYolJNDhyF67CqBKCEc1Kv6uWLgree6L95Sdu6zwMwd6QqcWJcnM1aXYyhQKJK+tOVxT8/sbivy52Pd8yYphnBU1CqNEKSRmgNqBJX01/e1vP3zVfEsQ5uP+KsaPupNzsDAKA2C9XEaKpKrESRBsLXHrzkgXULR89Et2w6uH9vvZby5Y2XnT8HU+FnsyGbYIRzElW1/2K3/ZFLV1/XfbwSrX38s/2Hko7+jlf+dHJBp33qzv7EM2iPcZZMM3m2WkFgjERnkp/ckP/nK1esvq77WCVa++i+/Qcngy4Txz4o5Z7+/ejrQ6OBlcS3LdUMFU2VVIwgSYm6f/COvq0bFwXWHB9r/OzhT/Z/GQU9YRp7OPFGXTG4/9VjvV3Bhh/1nquTieaEI4xBMulLHXbr/Quf/Xmvs+aL4eq6hz789LPvXJdJEw8QqvRK8TZn737p6/f3jjsr6Xx5NAFa54MIk/F0xeUdW+7p2fnXQ9vfGwHw9gff7P3HaFhyPlFQQWZtT0+xmsLc/tzhjw9NzIvR4oCAgkzrXH1T59pr/TO//XzX7vGeBXkBNm1cPvDUimh00goEABVCUAmqpw1kIpL1A18dPFrLzqX5AAB4WMia63N2cmzrtuETNXF9hZQAEKccvG/5C49dnVbqRimSFVMzQatXF8qpM7pu8PBIJbZmBsb0NBWDcnfti89H3v+warvzYSGXEgtLAQAjSD033bvsN5uuSr9tIKUVhaqogiqgKoJO+9+RZP2vv/p2MrFGWhBTGaiyWjn8n8rIGGwxp8Y0TidLlhXX3NhLwhrJ6vvwXUu2bb4W9TitxqRSlZ6qhDJNmSvafQcbtz5/uBF7I1NrSpPbJEatri4woaFIKPLjVaUdm1d0FQJOSSDDuHf94r/97sZV1xQ66OFTMIUqVYVMU+S63e6Pa3dtGa5FPmsoUVKA7yaTo6N1sSbjO58z5UUFnLXOTDOltEYADB+r1WMVY7K2bMnQGEw09Or+sBBatPaiuUaC4LwrVgvjfGx68ZqBJDjn9qbTG6S0bi1rBdA2g+/LLvh2/T/vCQ3PRKsf9QAAAABJRU5ErkJggg==" />
+<link rel="icon" type="image/png" sizes="48x48" href="data:image/png;base64,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" />
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAI20lEQVR4nO2YW2xc1RWG/7X2PmfGjhN7ciNOiE1MKAWiAlJVUhCkF1oS0iot4aWFqqKpKkW0jVBvCFpCCBZQpUXijtpSobQCgQKiL1VwKALEpS4tBIFya0gwkJsTe+wZz4zPOXutPuyZ8czYceKoavPA1pHtc5ntb/619r/W2aSqOJ0G/78BGscnQCcapx2QHX9JFU6UiMbfIgJPcLk8RCA68QcbBhOO9xQ1rDIR8Cmp5gTmvyF3nUKe5uhw9OeXsm/tGx2JlQCFQmGYokKycmnLmivnOlFTL5QoDGP7vpEtrw3/uz9OnCoAVWIiQEEKJUCVAkvZoXjpp8Nbr53P/vbxgETBjJ63s9+77+OPDieNsTGEwWTmTF5zJRqcy/N1P31gw5NH42LNlP45IviZFDCMnOs8y967pp2JFRgfN1vRRolo98eF1Xd9kIu4pc2KjD2kABOVEp2WNg2fT5xaQxufOnDbH4+k28IwpaJVAALUI0ERWBrOy2eWpHo2dM1pDUUnTkdb8y/RvaU/l6fpbVyMUZ62ooY1cI5qKas0j249ctufjjZnQlGNBaogqIJUoSAikGpgMTTkLui0f13fNac1HB/0OiAFDFMUy6u7ihSaUuwxJiwpYxc9zXO9g2sfPhQ0B04EAAFE5S9DAEGhxMYU8skFnbZnQ1d7ZjKaikIKEIqRlEZFSSvajItwzWkiag29sWv4uk0fBqEhiA+BU9LyilYiMECGSjl3/lm2545F7ZnU5DSoNUZq0KSaiePkcQLLtOdA4Zt39RUdGwMRqBKg5J9SVSVVBAalXHJeBz1/+0nR1AEp4GSSJwGCN73QUv9QtKp7/6GsBgFHjgTEJOo9AkqkgFpD+bye12F67uhaMOukaDBB6Shnj5LXg8D+ewMQiKoqilGy+u79O/qSdJNJHACFqiiJkHqNFJaplJNzz/Q06ZOkGQeklZ8K1fIfAtKyQFCACN+5t++V7aXm6TZOYFgNKcqJ7HNZQ4vRgpyzgHo2LJoSzXiFFCo1iaN1dxJdOMves+XgMy/mUq3BaKxESlBRZoIhYShBjeFCThfP5213di2cPTUa1Do11f2qBSFmGi3pkiVNA9l403ND6UwQJwJA1WumBIgSQIGl4rDrms89dyzqmDoN6hQiMDWudS+RE7Q0oyMj928dNqFxOgbufWKMJisXLg5f7O46a+6p0KChuI63Ql+HiDSw7oV3JVZmooaqAgURmKk46FZe2rz5poWZluDUaOqAVMteUi+SAsSE/CiLsiGV8jIkIiKo90MRRPlk3bWZ39ww3zB7Ez8FmjogIu/0vn7VTEeQcoxUFIYEIKflKmeYopKELI/cNO/7X5kDYCRKpoX2eLXzhKMmh7SmhGn5hOCLpEIUUqGAEpSg1lKUcwtn0bbuTk/Tu3v4s2veefndLBMSdyovWOONUcf6HS2bUdUtATglp0SMwFJpMFl2Yfr1TYsvP38GgL/vHFrxi107P5Jrbt+7/f2cNeRkykwNxqiNia1Vixy7wgQIFYfitatae+7sWpBJAejdNbT85zsG8ki1mWM5WvnLPXsPFgxPmWl8G6zqIRS1rWEFTA1THEETuf/G9ofWdkIZhN6d2eU/fS87ojZNUaS2iT/ux9W37j48OGqYZCpMtcVVawkqyVQ+8Y2oNRzlZUGGejZ2/HDl3FIsgaXeHdnlP3lnMC82RS4WIojTYJrZ3Scr1+8ZLsTsC+9Ugco9FUBepCqF7/wANjSaTS6/MHzt111fWDKjFEk64N6dg1fdtH0wrzZFLlGoqAhUE6fhDPvP96LV3XsjX4FPjmlccR3LIh1ba6yqFA9EP1jV+sKdizvmpEdjSYfcu2Ng+Y/+lc2LSbFzlZqs4uOdxBK2BtteL16/aR+Tip7UvkZdP6RjLY1W+iwYQ0lJJUoe/1XHozd2WDaJ01TAb+44tnztG4M5MSG5RKrLEKq+YQM0TiTM2KefH1774H6f4CdEmrAfKk+rCmsQDSadc4I37zsnGcje/MB2AMbQS28e/NINL2cLalLkEvH1rLweVaqORdAkkSATPLLl2C2P91lD7kTmNGEOAQCRMiE6Gq+4bPozt7Q/uHnXmh+/nS2ACCoILKdD0kQIjiA+UlAZswmtrlZ1ToO28K7NRzY9e8AaiidlqguZl1pVmeASTUbcum/Pvv7z9pp1/3js2UNmXksQBgASJ5dedMYrm7/YeYZJhmNrfHdJNX2UUq2BqTrVYEb4s4cPPtZzODA0iYnXK4Sy7yUlzTSZ9ddnRvuPXnfzOx8MSNOctBPy8zBT4vTcztYX/3DFOR2pOBtZU80b32BWjzKlCpyqnRasuffDZ18/Zo/PVK8QACAuald78N1lwV+2fvDIkwdsa5NJB4kQjOHKfoLPhkXzW/72u8uWfCodD0bWcAXDt9VlsX34Ku6hJgy+dU/fS+8OHY+pLqkJSoqz23H29KHfP7XvrT2lcHaTAwsRGSZGpiWoPmwMOdEz5zZve3jpxRek42Mlawgi5cNHTcST+QiIggwi4W9073/r/fyExa4uZCKUouJof3/Pq4MjibHNNlYCsz+U8eWLM8DY1o5fyWfMbNr20NIrPtcS9xcCQwTnE7yMIpUVqwDgHGyIbB4rb9+799AExa5OoTDKx8eGDg5IqiVlUxbMxhhrOQhsdCT62pfnLLtoltS3gr5UzZyR3vrAJatXzI4OF1XUGliCITWkhpW5/HJiGdYQQOlmPjSIVRv3Hh2OTH1hIR9oImRz0bwVz48OOKQtyIAZxGDf+eCqK9qeWL+krSWsVag6RJSZFHrrQzt/+8RHowVCYMAGxGADw2ADIhDBMIigCgMU9Nzzwm0bF8+flaLKtGNAhWK89u7tQyPC1gjIb98xaG5r+NVLMtcsmwdA9bhbcdXqt2P/8JYXDr/XVywkIDZgo0QgJiJiUiL/Bqyi1nJuOLl6acu6r8+rdpiNW3qTjEloquOUe/vqqAOasJnyuyHmpJt2EZVG9Em3O7ju9hQU+t+M026f+hOgE43TDug/HT8ulT+tEaQAAAAASUVORK5CYII=" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Kimi Technologies — Web Development, SEO & Content Strategy" />
+<meta property="og:description" content="Independent studio building fast websites, improving search visibility and shaping content strategy. Plus five free, privacy-first browser tools." />
+<meta property="og:site_name" content="Kimi Technologies" />
+<meta property="og:locale" content="en_IN" />
+<meta property="og:image" content="https://kimitechnologies.vercel.app/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kimi Technologies — Web Development, SEO & Content Strategy" />
+<meta name="twitter:description" content="Independent studio building fast websites, improving search visibility and shaping content strategy. Plus five free, privacy-first browser tools." />
+<meta name="twitter:image" content="https://kimitechnologies.vercel.app/og-image.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Kimi Technologies",
+  "url": "https://kimitechnologies.vercel.app/",
+  "logo": "https://kimitechnologies.vercel.app/og-image.jpg",
+  "description": "Independent studio for web development, search engine optimization and content strategy, and publisher of free privacy-first browser tools.",
+  "email": "connect.kimitech@gmail.com",
+  "foundingDate": "2023",
+  "sameAs": ["https://www.linkedin.com/company/kimitechnologies/", "https://share.google/tDiyLY1lhU5u5H3VA"],
+  "makesOffer": [
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Web Development"},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Search Engine Optimization"},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Content Strategy"}
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   KIMI TECHNOLOGIES — shared design system
+   ============================================================ */
+
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f6f7f9;
+  --bg-deep: #0a0c12;
+  --surface: #ffffff;
+  --surface-2: #fbfbfc;
+  --border: rgba(10, 12, 18, 0.10);
+  --border-soft: rgba(10, 12, 18, 0.06);
+  --border-strong: rgba(10, 12, 18, 0.22);
+  --text: #0a0c12;
+  --text-dim: #565e70;
+  --text-faint: #868d9c;
+  --accent: #0b51d6;
+  --accent-ink: #033ea8;
+  --accent-soft: rgba(3, 84, 212, 0.07);
+  --btn-bg: #0a0c12;
+  --btn-fg: #ffffff;
+  --btn-bg-hover: #22262f;
+  --grid-line: rgba(10, 12, 18, 0.05);
+  --shadow-sm: 0 1px 2px rgba(10, 12, 18, 0.05);
+  --shadow-md: 0 12px 32px -12px rgba(10, 12, 18, 0.16);
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --font: 'Instrument Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --header-h: 68px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-io: cubic-bezier(0.65, 0.05, 0.36, 1);
+  --pt: #0a0c12;
+}
+
+html[data-theme="dark"] {
+  --bg: #08090c;
+  --bg-soft: #0c0e13;
+  --bg-deep: #f3f4f7;
+  --surface: #0f1116;
+  --surface-2: #12141a;
+  --border: rgba(255, 255, 255, 0.11);
+  --border-soft: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.24);
+  --text: #f3f4f7;
+  --text-dim: #a4abb9;
+  --text-faint: #767e8e;
+  --accent: #6f92ff;
+  --accent-ink: #a8bcff;
+  --accent-soft: rgba(111, 146, 255, 0.12);
+  --btn-bg: #f3f4f7;
+  --btn-fg: #08090c;
+  --btn-bg-hover: #d9dce4;
+  --grid-line: rgba(255, 255, 255, 0.05);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 16px 40px -16px rgba(0, 0, 0, 0.7);
+  --pt: #14161c;
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 24px);
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body > main { flex: 1 0 auto; }
+body.no-scroll { overflow: hidden; }
+
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+ul, ol { list-style: none; }
+::selection { background: var(--accent); color: #fff; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.section { padding-block: clamp(64px, 8vw, 112px); position: relative; }
+.section--tight { padding-block: clamp(48px, 6vw, 80px); }
+.section--soft { background: var(--bg-soft); border-block: 1px solid var(--border-soft); }
+.section--flush { padding-top: 0; }
+
+/* ============================================================
+   TYPE
+   ============================================================ */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 20px;
+}
+.eyebrow::before {
+  content: "";
+  width: 6px; height: 6px;
+  background: var(--accent);
+  border-radius: 1px;
+  flex: none;
+}
+
+h1, h2, h3, h4, h5 { font-weight: 600; letter-spacing: -0.035em; line-height: 1.02; }
+
+.h-display { font-size: clamp(2.5rem, 6vw, 4.4rem); letter-spacing: -0.045em; line-height: 0.98; }
+.h-section { font-size: clamp(1.8rem, 3.4vw, 2.9rem); line-height: 1.05; letter-spacing: -0.04em; }
+.h-sub { font-size: clamp(1.2rem, 1.9vw, 1.5rem); letter-spacing: -0.03em; line-height: 1.2; }
+
+.lede {
+  font-size: clamp(1rem, 1.3vw, 1.13rem);
+  color: var(--text-dim);
+  line-height: 1.6;
+  max-width: 58ch;
+  letter-spacing: -0.008em;
+}
+.section-head { max-width: 760px; margin-bottom: clamp(36px, 4.5vw, 56px); }
+.section-head .lede { margin-top: 18px; }
+.muted { color: var(--text-dim); }
+.mono { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.06em; }
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 13px 22px;
+  border-radius: 999px;
+  font-size: 0.925rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid transparent;
+  transition: background 0.2s var(--ease), transform 0.2s var(--ease), border-color 0.2s var(--ease);
+  white-space: nowrap;
+}
+.btn:hover { background: var(--btn-bg-hover); transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn--ghost { background: transparent; color: var(--text); border-color: var(--border-strong); }
+.btn--ghost:hover { background: var(--bg-soft); border-color: var(--text-faint); }
+.btn--accent { background: var(--accent); color: #fff; }
+.btn--accent:hover { background: var(--accent-ink); }
+.btn svg { width: 15px; height: 15px; flex: none; }
+.btn .arw { transition: transform 0.25s var(--ease); }
+.btn:hover .arw { transform: translateX(3px); }
+.btn--sm { padding: 10px 17px; font-size: 0.875rem; }
+
+/* ============================================================
+   HEADER  (logo + actions only — navigation lives in the drawer)
+   ============================================================ */
+.site-header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: var(--header-h);
+  z-index: 90;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s var(--ease), background 0.3s var(--ease);
+}
+.site-header.is-stuck { border-bottom-color: var(--border); }
+.site-header.is-open { background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none; }
+
+.header-inner {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.03em;
+  flex: none;
+}
+.logo-mark {
+  width: 27px; height: 27px;
+  display: block;
+  flex: none;
+  transition: transform 0.4s var(--ease);
+}
+.logo-mark img { width: 100%; height: 100%; object-fit: contain; }
+.logo:hover .logo-mark { transform: scale(1.08); }
+.logo span.sub { color: var(--text-faint); font-weight: 400; }
+
+.header-actions { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+
+.icon-btn {
+  width: 38px; height: 38px;
+  display: grid; place-items: center;
+  border-radius: 9px;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  transition: color 0.18s, border-color 0.18s, background 0.18s;
+}
+.icon-btn:hover { color: var(--text); border-color: var(--border-strong); background: var(--bg-soft); }
+.icon-btn svg { width: 17px; height: 17px; }
+html[data-theme="light"] .icon-moon { display: none; }
+html[data-theme="dark"] .icon-sun { display: none; }
+
+/* Menu button — the only way into navigation */
+.menu-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 38px;
+  padding: 0 16px 0 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text);
+  transition: background 0.2s var(--ease), border-color 0.2s, transform 0.2s var(--ease);
+  margin-left: 2px;
+}
+.menu-btn:hover { background: var(--bg-soft); transform: translateY(-1px); }
+.menu-btn .bars { position: relative; width: 15px; height: 10px; flex: none; }
+.menu-btn .bars i {
+  position: absolute; left: 0; height: 1.5px; width: 100%;
+  background: currentColor; border-radius: 2px;
+  transition: transform 0.3s var(--ease), width 0.3s var(--ease), top 0.3s var(--ease);
+}
+.menu-btn .bars i:nth-child(1) { top: 0; }
+.menu-btn .bars i:nth-child(2) { top: 4.2px; width: 70%; }
+.menu-btn .bars i:nth-child(3) { top: 8.4px; }
+.menu-btn:hover .bars i:nth-child(2) { width: 100%; }
+.menu-btn[aria-expanded="true"] .bars i:nth-child(1) { top: 4.2px; transform: rotate(45deg); }
+.menu-btn[aria-expanded="true"] .bars i:nth-child(2) { opacity: 0; }
+.menu-btn[aria-expanded="true"] .bars i:nth-child(3) { top: 4.2px; transform: rotate(-45deg); }
+
+/* ============================================================
+   SIDEBAR DRAWER
+   ============================================================ */
+.drawer-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 95;
+  background: rgba(6, 8, 14, 0.42);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s var(--ease), visibility 0.4s;
+}
+.drawer-scrim.is-open { opacity: 1; visibility: visible; }
+
+.drawer {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: min(440px, 100%);
+  z-index: 96;
+  background: var(--bg);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(101%);
+  transition: transform 0.52s var(--ease-io);
+  will-change: transform;
+}
+.drawer.is-open { transform: translateX(0); }
+
+.drawer-top {
+  height: var(--header-h);
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 26px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.drawer-label {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.drawer-close {
+  width: 34px; height: 34px;
+  border-radius: 8px;
+  display: grid; place-items: center;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  transition: color 0.18s, border-color 0.18s, transform 0.3s var(--ease);
+}
+.drawer-close:hover { color: var(--text); border-color: var(--border-strong); transform: rotate(90deg); }
+.drawer-close svg { width: 15px; height: 15px; }
+
+.drawer-nav {
+  padding: 18px 26px 0;
+  overflow-y: auto;
+  flex: 1 1 auto;
+}
+.drawer-nav a {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-soft);
+  font-size: clamp(1.5rem, 3.4vw, 1.85rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  color: var(--text);
+  opacity: 0;
+  transform: translateX(18px);
+  transition: color 0.2s;
+}
+.drawer.is-open .drawer-nav a {
+  animation: drawerLink 0.55s var(--ease) forwards;
+}
+.drawer-nav a:nth-child(1) { animation-delay: 0.06s; }
+.drawer-nav a:nth-child(2) { animation-delay: 0.11s; }
+.drawer-nav a:nth-child(3) { animation-delay: 0.16s; }
+.drawer-nav a:nth-child(4) { animation-delay: 0.21s; }
+.drawer-nav a:nth-child(5) { animation-delay: 0.26s; }
+.drawer-nav a:nth-child(6) { animation-delay: 0.31s; }
+@keyframes drawerLink { to { opacity: 1; transform: none; } }
+
+.drawer-nav a .idx {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--text-faint);
+  letter-spacing: 0.1em;
+  flex: none;
+  font-weight: 400;
+}
+.drawer-nav a .lbl { position: relative; }
+.drawer-nav a .lbl::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -3px;
+  height: 1.5px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s var(--ease);
+}
+.drawer-nav a:hover .lbl::after { transform: scaleX(1); transform-origin: left; }
+.drawer-nav a:hover { color: var(--accent); }
+.drawer-nav a[aria-current="page"] { color: var(--accent); }
+.drawer-nav a[aria-current="page"] .idx { color: var(--accent); }
+
+.drawer-foot {
+  flex: none;
+  padding: 22px 26px 26px;
+  border-top: 1px solid var(--border-soft);
+  display: grid;
+  gap: 12px;
+}
+.drawer-foot .drawer-mail {
+  font-size: 0.9rem;
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.drawer-foot .drawer-mail:hover { color: var(--accent); }
+.drawer-socials { display: flex; flex-wrap: wrap; gap: 8px; }
+.drawer-socials a {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  transition: color 0.18s, border-color 0.18s;
+}
+.drawer-socials a:hover { color: var(--text); border-color: var(--border-strong); }
+
+/* ============================================================
+   PAGE HEAD (inner pages)
+   ============================================================ */
+.page-head {
+  position: relative;
+  padding-top: calc(var(--header-h) + clamp(48px, 7vw, 88px));
+  padding-bottom: clamp(40px, 5vw, 64px);
+  overflow: hidden;
+  border-bottom: 1px solid var(--border-soft);
+}
+.page-head::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 76px 76px;
+  mask-image: radial-gradient(ellipse 80% 90% at 20% 0%, #000 10%, transparent 72%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 90% at 20% 0%, #000 10%, transparent 72%);
+  pointer-events: none;
+}
+.page-head .container { position: relative; }
+.page-head h1 { margin-bottom: 20px; max-width: 18ch; }
+.page-head .lede { max-width: 56ch; }
+.crumbs {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 26px;
+}
+.crumbs a:hover { color: var(--text); }
+.crumbs span.sep { opacity: 0.5; }
+
+/* ============================================================
+   HERO (home)
+   ============================================================ */
+.hero {
+  position: relative;
+  padding-top: calc(var(--header-h) + clamp(52px, 8vw, 96px));
+  padding-bottom: clamp(52px, 7vw, 88px);
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 76px 76px;
+  mask-image: radial-gradient(ellipse 90% 65% at 50% 0%, #000 20%, transparent 78%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 65% at 50% 0%, #000 20%, transparent 78%);
+  pointer-events: none;
+}
+.hero .container { position: relative; }
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.32fr) minmax(0, 0.68fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: stretch;
+}
+.hero h1 { margin-bottom: 22px; }
+.hero h1 em { font-style: normal; color: var(--text-faint); }
+.hero .lede { font-size: clamp(1.02rem, 1.4vw, 1.18rem); max-width: 46ch; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+
+.hero-aside {
+  border-left: 1px solid var(--border);
+  padding-left: 26px;
+  display: grid;
+  align-content: space-between;
+  gap: 22px;
+}
+.hero-aside .aside-item { display: grid; gap: 5px; }
+.hero-aside .aside-key {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.hero-aside .aside-val { font-size: 0.95rem; letter-spacing: -0.015em; }
+.hero-aside a.aside-val:hover { color: var(--accent); }
+
+.avail {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 14px 7px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  background: var(--surface);
+  margin-bottom: 24px;
+}
+.avail .dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #12b76a;
+  box-shadow: 0 0 0 3px rgba(18, 183, 106, 0.16);
+  flex: none;
+}
+
+/* ============================================================
+   STATS
+   ============================================================ */
+.stats { border-block: 1px solid var(--border); background: var(--surface-2); }
+.stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.stat { padding: 28px 24px; border-left: 1px solid var(--border); }
+.stat:first-child { border-left: 0; padding-left: 0; }
+.stat-num {
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.stat-num sup { font-size: 0.5em; top: -0.7em; color: var(--text-faint); font-weight: 500; }
+.stat-label { font-size: 0.83rem; color: var(--text-dim); }
+
+/* ============================================================
+   SERVICE CARDS
+   ============================================================ */
+.cards-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.svc {
+  background: var(--bg);
+  padding: clamp(24px, 3vw, 36px);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  transition: background 0.25s var(--ease);
+  position: relative;
+}
+.svc:hover { background: var(--surface-2); }
+.svc-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-faint);
+  letter-spacing: 0.1em;
+  margin-bottom: 28px;
+}
+.svc h3 { font-size: 1.3rem; margin-bottom: 11px; letter-spacing: -0.03em; }
+.svc p { font-size: 0.93rem; color: var(--text-dim); line-height: 1.62; margin-bottom: 22px; }
+.svc ul { display: grid; gap: 9px; margin-bottom: 26px; }
+.svc li { position: relative; padding-left: 20px; font-size: 0.87rem; color: var(--text-dim); }
+.svc li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.6em;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  border: 1.4px solid var(--accent);
+}
+.svc-link {
+  margin-top: auto;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding-top: 6px;
+}
+.svc-link svg { width: 14px; height: 14px; transition: transform 0.25s var(--ease); }
+.svc-link:hover { color: var(--accent); }
+.svc-link:hover svg { transform: translateX(3px); }
+
+/* ============================================================
+   SERVICE DETAIL BLOCKS
+   ============================================================ */
+.svc-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 0.42fr) minmax(0, 0.58fr);
+  gap: clamp(24px, 4vw, 64px);
+  padding-block: clamp(36px, 4vw, 56px);
+  border-top: 1px solid var(--border);
+}
+.svc-detail:first-of-type { border-top: 0; padding-top: 0; }
+.svc-detail h2 { font-size: clamp(1.4rem, 2.2vw, 1.8rem); letter-spacing: -0.035em; margin-bottom: 12px; }
+.svc-detail .tag-line { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
+.svc-detail .body p { font-size: 0.96rem; color: var(--text-dim); line-height: 1.7; margin-bottom: 14px; max-width: 60ch; }
+.checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 24px; margin-top: 22px; }
+.checks li { position: relative; padding-left: 22px; font-size: 0.875rem; color: var(--text-dim); }
+.checks li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.34em;
+  width: 11px; height: 6px;
+  border-left: 1.6px solid var(--accent);
+  border-bottom: 1.6px solid var(--accent);
+  transform: rotate(-45deg);
+}
+
+/* ============================================================
+   PRICING
+   ============================================================ */
+.pricing-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 26px;
+  margin-bottom: 40px;
+}
+.tabs {
+  display: inline-flex;
+  gap: 3px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+}
+.tab {
+  padding: 9px 20px;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  transition: background 0.2s var(--ease), color 0.2s;
+  white-space: nowrap;
+}
+.tab:hover { color: var(--text); }
+.tab[aria-selected="true"] { background: var(--btn-bg); color: var(--btn-fg); }
+
+.panel { display: none; }
+.panel.is-active { display: block; animation: panelIn 0.4s var(--ease) both; }
+@keyframes panelIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+.panel-note { font-size: 0.875rem; color: var(--text-faint); margin-bottom: 24px; max-width: 68ch; }
+.price-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.price-grid--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.plan {
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  transition: border-color 0.25s var(--ease), transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.plan:hover { border-color: var(--border-strong); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.plan--featured { border-color: var(--text); }
+.plan-badge {
+  position: absolute;
+  top: -10px; left: 24px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: var(--text);
+  color: var(--bg);
+  padding: 4px 9px;
+  border-radius: 5px;
+}
+.plan-name { font-size: 1rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 4px; }
+.plan-scope { font-size: 0.78rem; color: var(--text-faint); margin-bottom: 18px; min-height: 2.4em; }
+.plan-price {
+  font-size: clamp(1.55rem, 2.2vw, 1.95rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+.plan-price .per { font-size: 0.82rem; font-weight: 400; color: var(--text-faint); letter-spacing: 0; }
+.plan-desc {
+  font-size: 0.86rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-soft);
+}
+.plan-cta {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+.plan-cta svg { width: 13px; height: 13px; transition: transform 0.22s var(--ease); }
+.plan-cta:hover svg { transform: translateX(3px); }
+
+.pricing-foot {
+  margin-top: 24px;
+  font-size: 0.83rem;
+  color: var(--text-faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+}
+.pricing-foot span { display: inline-flex; align-items: center; gap: 7px; }
+.pricing-foot span::before { content: ""; width: 4px; height: 4px; background: var(--text-faint); border-radius: 50%; }
+
+/* ============================================================
+   PROJECTS
+   ============================================================ */
+.proj-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 18px; }
+.proj {
+  grid-column: span 2;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.25s var(--ease), transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.proj:nth-child(1), .proj:nth-child(2) { grid-column: span 3; }
+.proj:hover { border-color: var(--border-strong); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.proj-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 20px; }
+.proj-index { font-family: var(--mono); font-size: 10.5px; color: var(--text-faint); letter-spacing: 0.1em; }
+.proj-arrow {
+  width: 30px; height: 30px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  display: grid; place-items: center;
+  color: var(--text-dim);
+  flex: none;
+  transition: all 0.25s var(--ease);
+}
+.proj-arrow svg { width: 13px; height: 13px; }
+.proj:hover .proj-arrow { background: var(--text); border-color: var(--text); color: var(--bg); }
+.proj h3 { font-size: 1.14rem; letter-spacing: -0.025em; margin-bottom: 9px; }
+.proj p { font-size: 0.89rem; color: var(--text-dim); line-height: 1.6; margin-bottom: 20px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+.tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 4px 7px;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   PROCESS
+   ============================================================ */
+.steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--border); }
+.step { padding: 28px 24px 0 0; border-right: 1px solid var(--border); min-width: 0; }
+.step:last-child { border-right: 0; }
+.step:not(:first-child) { padding-left: 24px; }
+.step-n { font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.1em; margin-bottom: 16px; display: block; }
+.step h4 { font-size: 1rem; margin-bottom: 9px; letter-spacing: -0.02em; }
+.step p { font-size: 0.87rem; color: var(--text-dim); line-height: 1.6; }
+
+/* ============================================================
+   PROSE / ABOUT
+   ============================================================ */
+.split { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 68px); align-items: start; }
+.prose p { font-size: 0.97rem; color: var(--text-dim); line-height: 1.72; margin-bottom: 17px; max-width: 62ch; }
+.prose p:last-child { margin-bottom: 0; }
+.prose strong { color: var(--text); font-weight: 500; }
+.prose a { color: var(--accent); }
+.pull {
+  border-left: 2px solid var(--accent);
+  padding: 4px 0 4px 22px;
+  margin: 26px 0;
+  font-size: 1.06rem;
+  line-height: 1.55;
+  letter-spacing: -0.02em;
+  max-width: 52ch;
+}
+
+.value-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.value { background: var(--bg); padding: 28px; min-width: 0; }
+.value h4 { font-size: 1rem; margin-bottom: 10px; letter-spacing: -0.02em; }
+.value p { font-size: 0.88rem; color: var(--text-dim); line-height: 1.62; }
+.value .vnum { font-family: var(--mono); font-size: 10.5px; color: var(--text-faint); letter-spacing: 0.1em; display: block; margin-bottom: 18px; }
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq { border-top: 1px solid var(--border); }
+.faq details { border-bottom: 1px solid var(--border); }
+.faq summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  transition: color 0.2s;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary:hover { color: var(--accent); }
+.faq summary .plus { position: relative; width: 15px; height: 15px; flex: none; color: var(--text-faint); }
+.faq summary .plus::before,
+.faq summary .plus::after { content: ""; position: absolute; background: currentColor; border-radius: 2px; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.faq summary .plus::before { width: 15px; height: 1.5px; }
+.faq summary .plus::after { width: 1.5px; height: 15px; }
+.faq details[open] summary .plus::after { transform: translate(-50%, -50%) scaleY(0); }
+.faq-body { padding-bottom: 22px; font-size: 0.94rem; color: var(--text-dim); line-height: 1.7; max-width: 72ch; }
+
+/* ============================================================
+   CTA BAND
+   ============================================================ */
+.cta-band {
+  background: var(--bg-deep);
+  color: var(--bg);
+  border-radius: var(--radius-lg);
+  padding: clamp(36px, 5.5vw, 64px);
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 36px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-band::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(128,128,128,0.16) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(128,128,128,0.16) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 70% 100% at 100% 50%, #000, transparent 72%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 100% at 100% 50%, #000, transparent 72%);
+  pointer-events: none;
+}
+.cta-band > * { position: relative; z-index: 1; }
+.cta-band h2 { font-size: clamp(1.7rem, 3.2vw, 2.6rem); letter-spacing: -0.04em; line-height: 1.04; margin-bottom: 14px; color: var(--bg); }
+.cta-band p { color: color-mix(in srgb, var(--bg) 62%, transparent); font-size: 0.96rem; line-height: 1.6; max-width: 44ch; }
+.cta-actions { display: grid; gap: 12px; }
+.cta-actions .btn { background: var(--bg); color: var(--bg-deep); width: 100%; }
+.cta-actions .btn:hover { background: color-mix(in srgb, var(--bg) 84%, transparent); }
+.cta-actions .btn--ghost { background: transparent; color: var(--bg); border-color: color-mix(in srgb, var(--bg) 30%, transparent); }
+.cta-actions .btn--ghost:hover { background: color-mix(in srgb, var(--bg) 10%, transparent); }
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(28px, 4vw, 60px); align-items: start; }
+.contact-list { border-top: 1px solid var(--border); }
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  transition: padding 0.3s var(--ease), color 0.2s;
+}
+.contact-row:hover { padding-left: 8px; color: var(--accent); }
+.contact-row .c-label {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  width: 92px;
+  flex: none;
+}
+.contact-row .c-value { font-size: 0.95rem; letter-spacing: -0.015em; min-width: 0; overflow-wrap: anywhere; }
+.contact-row .c-go { margin-left: auto; color: var(--text-faint); flex: none; }
+.contact-row .c-go svg { width: 14px; height: 14px; }
+
+.brief { border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; background: var(--surface); }
+.brief h3 { font-size: 1rem; margin-bottom: 14px; letter-spacing: -0.02em; }
+.brief ol { counter-reset: b; display: grid; gap: 13px; }
+.brief li { counter-increment: b; position: relative; padding-left: 30px; font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; }
+.brief li::before {
+  content: counter(b, decimal-leading-zero);
+  position: absolute; left: 0; top: 0;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* ============================================================
+   LEGAL
+   ============================================================ */
+.legal-wrap { max-width: 760px; }
+.legal-body h2 {
+  font-size: 1.1rem;
+  letter-spacing: -0.025em;
+  margin: 36px 0 12px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-soft);
+}
+.legal-body h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 32px; }
+.legal-body p { font-size: 0.95rem; color: var(--text-dim); line-height: 1.75; margin-bottom: 13px; }
+.legal-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.updated { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); display: block; margin-top: 22px; }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.site-footer { border-top: 1px solid var(--border); padding-block: 56px 28px; margin-top: 0; }
+.footer-top { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 0.85fr)); gap: 40px; padding-bottom: 44px; }
+.footer-brand p { font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; max-width: 34ch; margin-top: 16px; }
+.footer-col h5 {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.footer-col ul { display: grid; gap: 10px; }
+.footer-col a { font-size: 0.88rem; color: var(--text-dim); transition: color 0.18s; }
+.footer-col a:hover { color: var(--text); }
+.footer-bottom {
+  border-top: 1px solid var(--border-soft);
+  padding-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 24px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+}
+.footer-bottom .legal-links { display: flex; gap: 20px; }
+.footer-bottom a:hover { color: var(--text); }
+
+/* ============================================================
+   REVEAL
+   ============================================================ */
+.reveal { opacity: 0; transform: translateY(18px); }
+.reveal.in { opacity: 1; transform: none; transition: opacity 0.7s var(--ease), transform 0.7s var(--ease); }
+.reveal.in[data-d="1"] { transition-delay: 0.04s; }
+.reveal.in[data-d="2"] { transition-delay: 0.08s; }
+.reveal.in[data-d="3"] { transition-delay: 0.18s; }
+
+/* ============================================================
+   PAGE TRANSITIONS  (the SPA illusion)
+   ============================================================ */
+.pt {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  pointer-events: none;
+  overflow: hidden;
+  display: none;
+}
+html.pt-enter .pt, html.pt-cover .pt { display: block; }
+html.pt-cover .pt { pointer-events: auto; }
+
+.pt-panels { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(6, 1fr); }
+.pt-panels i {
+  display: block;
+  background: var(--pt);
+  transform: translateY(-101%);
+  transition: transform 0.3s var(--ease-io);
+  will-change: transform;
+}
+.pt-disc {
+  position: absolute;
+  left: var(--ox, 50%);
+  top: var(--oy, 50%);
+  width: 220vmax; height: 220vmax;
+  margin-left: -110vmax; margin-top: -110vmax;
+  border-radius: 50%;
+  background: var(--pt);
+  transform: scale(0);
+  transition: transform 0.42s var(--ease-io);
+  will-change: transform;
+}
+/* ---- cover states (page is leaving) ---- */
+html.pt-cover[data-anim="columns"] .pt-panels i { transform: translateY(0); }
+html.pt-cover[data-anim="columns"] .pt-panels i:nth-child(1) { transition-delay: 0s; }
+html.pt-cover[data-anim="columns"] .pt-panels i:nth-child(2) { transition-delay: 0.02s; }
+html.pt-cover[data-anim="columns"] .pt-panels i:nth-child(3) { transition-delay: 0.04s; }
+html.pt-cover[data-anim="columns"] .pt-panels i:nth-child(4) { transition-delay: 0.06s; }
+html.pt-cover[data-anim="columns"] .pt-panels i:nth-child(5) { transition-delay: 0.08s; }
+html.pt-cover[data-anim="columns"] .pt-panels i:nth-child(6) { transition-delay: 0.10s; }
+
+html.pt-cover[data-anim="rise"] .pt-panels i { transform: translateY(0); }
+html.pt-cover[data-anim="rise"] .pt-panels i:nth-child(1) { transition-delay: 0.10s; }
+html.pt-cover[data-anim="rise"] .pt-panels i:nth-child(2) { transition-delay: 0.08s; }
+html.pt-cover[data-anim="rise"] .pt-panels i:nth-child(3) { transition-delay: 0.06s; }
+html.pt-cover[data-anim="rise"] .pt-panels i:nth-child(4) { transition-delay: 0.04s; }
+html.pt-cover[data-anim="rise"] .pt-panels i:nth-child(5) { transition-delay: 0.02s; }
+html.pt-cover[data-anim="rise"] .pt-panels i:nth-child(6) { transition-delay: 0s; }
+
+/* horizontal sweep */
+html[data-anim="sweep"] .pt-panels i { transform: translateX(-101%); }
+html.pt-cover[data-anim="sweep"] .pt-panels i { transform: translateX(0); }
+html.pt-cover[data-anim="sweep"] .pt-panels i:nth-child(1) { transition-delay: 0s; }
+html.pt-cover[data-anim="sweep"] .pt-panels i:nth-child(2) { transition-delay: 0.02s; }
+html.pt-cover[data-anim="sweep"] .pt-panels i:nth-child(3) { transition-delay: 0.04s; }
+html.pt-cover[data-anim="sweep"] .pt-panels i:nth-child(4) { transition-delay: 0.06s; }
+html.pt-cover[data-anim="sweep"] .pt-panels i:nth-child(5) { transition-delay: 0.08s; }
+html.pt-cover[data-anim="sweep"] .pt-panels i:nth-child(6) { transition-delay: 0.10s; }
+html.pt-enter[data-anim="sweep"] .pt-panels i { transform: translateX(0); transition: none; }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i { transform: translateX(101%); transition: transform 0.3s var(--ease-io); }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i:nth-child(1) { transition-delay: 0s; }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i:nth-child(2) { transition-delay: 0.02s; }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i:nth-child(3) { transition-delay: 0.04s; }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i:nth-child(4) { transition-delay: 0.06s; }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i:nth-child(5) { transition-delay: 0.08s; }
+html.pt-enter.pt-reveal[data-anim="sweep"] .pt-panels i:nth-child(6) { transition-delay: 0.10s; }
+
+html.pt-cover[data-anim="disc"] .pt-panels { display: none; }
+html.pt-cover[data-anim="disc"] .pt-disc { transform: scale(1); }
+
+html.pt-cover[data-anim="fade"] .pt-panels i { transform: translateY(0); transition-duration: 0.22s; }
+
+/* ---- enter states (new page arriving) ---- */
+html.pt-enter[data-anim="columns"] .pt-panels i { transform: translateY(0); transition: none; }
+html.pt-enter[data-anim="rise"] .pt-panels i { transform: translateY(0); transition: none; }
+html.pt-enter[data-anim="fade"] .pt-panels i { transform: translateY(0); transition: none; }
+html.pt-enter[data-anim="disc"] .pt-panels { display: none; }
+html.pt-enter[data-anim="disc"] .pt-disc { transform: scale(1); transition: none; }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i { transform: translateY(101%); transition: transform 0.3s var(--ease-io); }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i { transform: translateY(-101%); transition: transform 0.3s var(--ease-io); }
+html.pt-enter.pt-reveal[data-anim="fade"] .pt-panels i { transform: translateY(101%); transition: transform 0.3s var(--ease); }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i:nth-child(1) { transition-delay: 0s; }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i:nth-child(2) { transition-delay: 0.02s; }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i:nth-child(3) { transition-delay: 0.04s; }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i:nth-child(4) { transition-delay: 0.06s; }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i:nth-child(5) { transition-delay: 0.08s; }
+html.pt-enter.pt-reveal[data-anim="columns"] .pt-panels i:nth-child(6) { transition-delay: 0.10s; }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i:nth-child(1) { transition-delay: 0.10s; }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i:nth-child(2) { transition-delay: 0.08s; }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i:nth-child(3) { transition-delay: 0.06s; }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i:nth-child(4) { transition-delay: 0.04s; }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i:nth-child(5) { transition-delay: 0.02s; }
+html.pt-enter.pt-reveal[data-anim="rise"] .pt-panels i:nth-child(6) { transition-delay: 0s; }
+html.pt-enter.pt-reveal[data-anim="disc"] .pt-disc { transform: scale(0); transition: transform 0.42s var(--ease-io); }
+/* content entrance after the curtain clears */
+html.pt-enter main, html.pt-enter .site-footer { opacity: 0; }
+html.pt-enter.pt-reveal main, html.pt-enter.pt-reveal .site-footer {
+  opacity: 1;
+  transition: opacity 0.45s var(--ease) 0.12s;
+}
+
+/* ---- failsafe: the curtain and the hidden content heal themselves ---- */
+html.pt-cover .pt,
+html.pt-enter .pt { animation: ptFailsafe 0.01s linear 1.6s forwards; }
+@keyframes ptFailsafe { to { opacity: 0; visibility: hidden; } }
+
+html.pt-enter main,
+html.pt-enter .site-footer { animation: ptContentFailsafe 0.01s linear 1.6s forwards; }
+@keyframes ptContentFailsafe { to { opacity: 1; } }
+
+/* page exit nudge for the light-weight styles */
+html.pt-cover[data-anim="fade"] main { opacity: 0.4; transition: opacity 0.3s var(--ease); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1040px) {
+  .hero-grid { grid-template-columns: 1fr; align-items: start; }
+  .hero-aside { border-left: 0; border-top: 1px solid var(--border); padding-left: 0; padding-top: 24px; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+  .cards-3 { grid-template-columns: 1fr; }
+  .price-grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .proj-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .proj, .proj:nth-child(1), .proj:nth-child(2) { grid-column: span 2; }
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .step:nth-child(2) { border-right: 0; }
+  .step:nth-child(3), .step:nth-child(4) { border-top: 1px solid var(--border); margin-top: 24px; }
+  .step:nth-child(3) { padding-left: 0; }
+  .split, .contact-grid, .svc-detail { grid-template-columns: 1fr; }
+  .footer-top { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px; }
+  .cta-band { grid-template-columns: 1fr; gap: 30px; }
+  .cta-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .value-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px) {
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat { padding: 22px 18px; }
+  .stat:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .stat:nth-child(3), .stat:nth-child(4) { border-top: 1px solid var(--border); }
+  .price-grid, .price-grid--4 { grid-template-columns: 1fr; }
+  .proj-grid { grid-template-columns: 1fr; }
+  .proj, .proj:nth-child(1), .proj:nth-child(2) { grid-column: span 1; }
+  .steps { grid-template-columns: 1fr; }
+  .step, .step:not(:first-child) { padding: 22px 0 0 0; border-right: 0; border-top: 1px solid var(--border); }
+  .step:first-child { border-top: 0; padding-top: 0; }
+  .footer-top { grid-template-columns: 1fr; gap: 30px; }
+  .cta-actions { grid-template-columns: 1fr; }
+  .pricing-head { align-items: flex-start; }
+  .tabs { width: 100%; overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex: 1 0 auto; padding: 9px 15px; font-size: 0.83rem; }
+  .hero-aside { grid-template-columns: 1fr; gap: 16px; }
+  .checks { grid-template-columns: 1fr; }
+  .header-actions .btn--sm { display: none; }
+  .menu-btn { padding: 0 14px 0 16px; }
+  .contact-row .c-label { width: 74px; }
+}
+
+@media (max-width: 420px) {
+  .container, .header-inner { padding-inline: 18px; }
+  .drawer-top, .drawer-nav, .drawer-foot { padding-inline: 20px; }
+  .menu-btn span.mtxt { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1 !important; transform: none !important; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  .pt { display: none !important; }
+}
+
+
+/* ============================================================
+   SPA: one document, eight views
+   ============================================================ */
+.view { display: none; }
+.view.is-active { display: block; }
+.view:focus { outline: none; }
+html.pt-enter main, html.pt-enter .site-footer { opacity: 0; }
+html.pt-enter.pt-reveal main, html.pt-enter.pt-reveal .site-footer {
+  opacity: 1;
+  transition: opacity 0.4s var(--ease) 0.06s;
+}
+#main:focus-visible { outline: none; }
+/* the heading receives focus on every route change — no visible ring */
+.view h1[tabindex="-1"]:focus,
+.view h1[tabindex="-1"]:focus-visible { outline: none; }
+
+</style>
+
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem('kt-theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) {}
+})();
+</script>
+</head>
+<body id="top">
+<div class="pt" aria-hidden="true">
+  <div class="pt-panels"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="pt-disc"></div>
+</div>
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#/home" class="logo" aria-label="Kimi Technologies — home">
+      <span class="logo-mark"><img src="data:image/png;base64,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" alt="" width="26" height="26" /></span>
+      <span>Kimi <span class="sub">Technologies</span></span>
+    </a>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="#/contact" class="btn btn--sm">Start a project</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="drawer">
+        <span class="mtxt">Menu</span>
+        <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="drawer-scrim" id="drawerScrim"></div>
+<div class="drawer-scrim" id="drawerScrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Site menu">
+  <div class="drawer-top">
+    <span class="drawer-label">Menu</span>
+    <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <nav class="drawer-nav" aria-label="Pages">
+    <a href="#/home" aria-current="page"><span class="idx">01</span><span class="lbl">Home</span></a><a href="#/services"><span class="idx">02</span><span class="lbl">Services</span></a><a href="#/pricing"><span class="idx">03</span><span class="lbl">Pricing</span></a><a href="#/projects"><span class="idx">04</span><span class="lbl">Projects</span></a><a href="#/about"><span class="idx">05</span><span class="lbl">About</span></a><a href="#/contact"><span class="idx">06</span><span class="lbl">Contact</span></a>
+  </nav>
+  <div class="drawer-foot">
+    <a class="drawer-mail" href="mailto:connect.kimitech@gmail.com">connect.kimitech@gmail.com</a>
+    <div class="drawer-socials">
+      <a href="https://www.linkedin.com/company/kimitechnologies/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://share.google/tDiyLY1lhU5u5H3VA" target="_blank" rel="noopener">Google Business</a>
+      <a href="#/privacy">Privacy</a>
+      <a href="#/terms">Terms</a>
+    </div>
+  </div>
+</aside>
+<main id="main" tabindex="-1">
+<section class="view is-active" data-view="home" aria-label="Kimi Technologies">
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="avail"><span class="dot"></span> Taking on new projects for Q4</div>
+        <h1 class="h-display">Build it well.<br />Get it found.<br /><em>Say it clearly.</em></h1>
+        <p class="lede">
+          Kimi Technologies is an independent studio for web development, search and content.
+          We ship the site, make it discoverable, and give it something worth reading.
+        </p>
+        <div class="hero-actions">
+          <a href="#/pricing" class="btn">See pricing <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="#/projects" class="btn btn--ghost">Open-source work</a>
+        </div>
+      </div>
+      <aside class="hero-aside">
+        <div class="aside-item"><span class="aside-key">Practice 01</span><a class="aside-val" href="#/services::web">Web development</a></div>
+        <div class="aside-item"><span class="aside-key">Practice 02</span><a class="aside-val" href="#/services::seo">Search engine optimization</a></div>
+        <div class="aside-item"><span class="aside-key">Practice 03</span><a class="aside-val" href="#/services::content">Content strategy</a></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-label="Company facts">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-num">2023</div><div class="stat-label">Founded, independent since day one</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Free tools shipped and maintained</div></div>
+      <div class="stat"><div class="stat-num">100<sup>%</sup></div><div class="stat-label">Client-side — no server uploads</div></div>
+      <div class="stat"><div class="stat-num">MIT</div><div class="stat-label">Licence on every open-source release</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">What we do</div>
+      <h2 class="h-section">Three disciplines,<br />one continuous loop.</h2>
+      <p class="lede">
+        A website only works when the build, the search presence and the writing pull in the
+        same direction. We do all three, so nothing gets lost between vendors.
+      </p>
+    </div>
+    <div class="cards-3 reveal">
+      <article class="svc">
+        <div class="svc-num">01 / Build</div>
+        <h3>Web Development</h3>
+        <p>Hand-built sites that load fast and hold up on every screen. No bloated templates, no plugin graveyards.</p>
+        <ul><li>Static and multi-page builds</li><li>Custom UI and interaction</li><li>Performance and accessibility</li></ul>
+        <a href="#/services::web" class="svc-link">Read more <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc">
+        <div class="svc-num">02 / Discover</div>
+        <h3>Search Engine Optimization</h3>
+        <p>Technical groundwork first, then the on-page work that follows from it. Fix what stops search engines understanding you.</p>
+        <ul><li>Audits and indexing fixes</li><li>Metadata and structured data</li><li>Keywords mapped to intent</li></ul>
+        <a href="#/services::seo" class="svc-link">Read more <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="svc">
+        <div class="svc-num">03 / Explain</div>
+        <h3>Content Strategy</h3>
+        <p>Reporting, features and social copy built on verified sources, planned against a calendar you can keep to.</p>
+        <ul><li>News and long-form features</li><li>Social packs and calendars</li><li>Editorial plans</li></ul>
+        <a href="#/services::content" class="svc-link">Read more <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Selected work</div>
+      <h2 class="h-section">Tools we build<br />for ourselves.</h2>
+      <p class="lede">Five releases, all free, all client-side, all MIT licensed. They keep us honest about speed and privacy.</p>
+    </div>
+    <div class="proj-grid reveal">
+      <a class="proj" href="https://itsfacil.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">01</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>Fácil</h3>
+  <p>Six media utilities in one place: compress video and images, and convert between media files and Base64 — all processed on your device.</p>
+  <div class="tags"><span class="tag">Media tools</span><span class="tag">Client-side</span><span class="tag">6 utilities</span></div>
+</a>
+      <a class="proj" href="https://getbeelink.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">02</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>BeeLink</h3>
+  <p>Send a file with a six-digit code. The recipient types the code, the file appears, one tap to save. Nothing is stored on a server.</p>
+  <div class="tags"><span class="tag">File sharing</span><span class="tag">OTP access</span><span class="tag">No storage</span></div>
+</a>
+      <a class="proj" href="https://openqrdev.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">03</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>OPENQR</h3>
+  <p>A QR code generator with broad customisation for colour, size and shape. No uploads, no tracking.</p>
+  <div class="tags"><span class="tag">Generator</span><span class="tag">MIT</span></div>
+</a>
+    </div>
+    <div style="margin-top:32px" class="reveal">
+      <a href="#/projects" class="btn btn--ghost">All five projects <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pricing-head reveal">
+      <div>
+        <div class="eyebrow">Pricing</div>
+        <h2 class="h-section">Fixed scopes.<br />Fixed prices.</h2>
+      </div>
+      <a href="#/pricing" class="btn btn--ghost">Full price list <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="price-grid reveal">
+      <article class="plan">
+        <div class="plan-name">Basic</div>
+        <div class="plan-scope">Single-page static website</div>
+        <div class="plan-price">₹999</div>
+        <p class="plan-desc">A focused one-page site — hero, services, about and contact — built to load fast and look right on mobile.</p>
+        <a href="#/pricing?tab=web" class="plan-cta">See what's included <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="plan plan--featured">
+        <span class="plan-badge">Most chosen</span>
+        <div class="plan-name">Standard</div>
+        <div class="plan-scope">Simple multi-page website</div>
+        <div class="plan-price">₹2,499</div>
+        <p class="plan-desc">Up to five pages with a shared layout, working navigation and a contact form — the usual shape of a small business site.</p>
+        <a href="#/pricing?tab=web" class="plan-cta">See what's included <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="plan">
+        <div class="plan-name">Advanced</div>
+        <div class="plan-scope">Custom UI/UX and more features</div>
+        <div class="plan-price">₹4,999</div>
+        <p class="plan-desc">Bespoke interface work, custom interactions, animations and additional functionality such as filtering or integrations.</p>
+        <a href="#/pricing?tab=web" class="plan-cta">See what's included <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">How we work</div>
+      <h2 class="h-section">Four steps, no surprises.</h2>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><span class="step-n">01</span><h4>Scope</h4><p>A short call to agree what is being built, who it is for and what done looks like.</p></div>
+      <div class="step"><span class="step-n">02</span><h4>Build</h4><p>Design and development in short passes, with a working link to review at each stage.</p></div>
+      <div class="step"><span class="step-n">03</span><h4>Launch</h4><p>Performance checks, metadata, indexing and deployment — handed over cleanly.</p></div>
+      <div class="step"><span class="step-n">04</span><h4>Maintain</h4><p>Optional monthly work: monitoring, reporting and content that keeps the site current.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Tell us what you need built.</h2>
+        <p>Send a short note with the scope and a deadline. You will get a reply with a fixed price and a start date — no discovery calls unless you want one.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn" href="mailto:connect.kimitech@gmail.com?subject=Project%20enquiry">Start the conversation <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#/contact">How to brief us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="services" aria-label="Services">
+
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>Services</span></div>
+    <h1 class="h-display">What we actually do.</h1>
+    <p class="lede">Three services that work better together than apart: the build, the search presence, and the writing that keeps both alive.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <article class="svc-detail" id="web">
+      <div>
+        <span class="tag-line">01 — Build</span>
+        <h2>Web Development</h2>
+        <p class="muted" style="font-size:.9rem">From ₹999</p>
+      </div>
+      <div class="body">
+        <p>
+          We build fast, functional websites from scratch. Clean front-end architecture, responsive
+          layouts across every device, and strong performance out of the box — no page builders, no
+          plugin stacks, nothing you cannot maintain later.
+        </p>
+        <p>
+          The process is straightforward: scope, build in short passes with a live link at each stage,
+          then launch with performance and metadata checks. You get the source and the hosting account.
+        </p>
+        <ul class="checks">
+          <li>Single-page and multi-page builds</li>
+          <li>Custom UI and interaction design</li>
+          <li>Responsive across every breakpoint</li>
+          <li>Performance and accessibility passes</li>
+          <li>Metadata, sitemap and indexing setup</li>
+          <li>Deployment and full handover</li>
+        </ul>
+        <p style="margin-top:24px"><a class="btn btn--ghost btn--sm" href="#/pricing?tab=web">Web development pricing <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+      </div>
+    </article>
+
+    <article class="svc-detail" id="seo">
+      <div>
+        <span class="tag-line">02 — Discover</span>
+        <h2>Search Engine Optimization</h2>
+        <p class="muted" style="font-size:.9rem">From ₹499</p>
+      </div>
+      <div class="body">
+        <p>
+          Most sites do not have a keyword problem — they have a plumbing problem. Pages that are not
+          indexed, titles that say nothing, no sitemap, a robots file blocking the one thing that matters.
+          We fix that before anyone starts chasing rankings.
+        </p>
+        <p>
+          Once the groundwork is sound, the on-page work follows: metadata, headings, internal links,
+          structured data and a keyword map built around real search intent. Everything is reported in
+          plain language.
+        </p>
+        <ul class="checks">
+          <li>Technical audits and indexing checks</li>
+          <li>Title tags, meta and headings</li>
+          <li>Keyword research by intent</li>
+          <li>Schema and structured data</li>
+          <li>Local and Google Business setup</li>
+          <li>Monthly monitoring and reports</li>
+        </ul>
+        <p style="margin-top:24px"><a class="btn btn--ghost btn--sm" href="#/pricing?tab=seo">SEO pricing <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+      </div>
+    </article>
+
+    <article class="svc-detail" id="content">
+      <div>
+        <span class="tag-line">03 — Explain</span>
+        <h2>Content Strategy</h2>
+        <p class="muted" style="font-size:.9rem">From ₹199</p>
+      </div>
+      <div class="body">
+        <p>
+          We write about technology for people who use it, not for people who grade it. That means
+          verified sources, a structure the reader can follow, and no padding to hit a word count.
+        </p>
+        <p>
+          Beyond individual pieces, we plan: audience research, content pillars, tone of voice and a
+          calendar that a small team can actually keep to. Then we measure what it did.
+        </p>
+        <ul class="checks">
+          <li>News reporting and features</li>
+          <li>Research-backed analysis</li>
+          <li>Social packs for LinkedIn and X</li>
+          <li>30-day content calendars</li>
+          <li>Editorial plans and tone of voice</li>
+          <li>Monthly management and reporting</li>
+        </ul>
+        <p style="margin-top:24px"><a class="btn btn--ghost btn--sm" href="#/pricing?tab=content">Content pricing <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section section--tight section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">How we work</div>
+      <h2 class="h-section">Four steps, no surprises.</h2>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><span class="step-n">01</span><h4>Scope</h4><p>A short call to agree what is being built, who it is for and what done looks like.</p></div>
+      <div class="step"><span class="step-n">02</span><h4>Build</h4><p>Design and development in short passes, with a working link to review at each stage.</p></div>
+      <div class="step"><span class="step-n">03</span><h4>Launch</h4><p>Performance checks, metadata, indexing and deployment — handed over cleanly.</p></div>
+      <div class="step"><span class="step-n">04</span><h4>Maintain</h4><p>Optional monthly work: monitoring, reporting and content that keeps the site current.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Not sure which one you need?</h2>
+        <p>Describe the problem and we will tell you what we would do first — even if the answer is that you do not need us yet.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn" href="mailto:connect.kimitech@gmail.com?subject=Project%20enquiry">Start the conversation <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#/contact">How to brief us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="pricing" aria-label="Pricing">
+
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>Pricing</span></div>
+    <h1 class="h-display">Every price,<br />written down.</h1>
+    <p class="lede">Three service lines, fixed scopes and fixed rates. Pick the closest fit and we will confirm the exact scope in writing before anything starts.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pricing-head reveal">
+      <div>
+        <div class="eyebrow">Price list</div>
+        <h2 class="h-section">Choose a line.</h2>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Pricing categories">
+        <button class="tab" role="tab" id="tab-web" aria-controls="panel-web" aria-selected="true" data-tab="web">Web Development</button>
+        <button class="tab" role="tab" id="tab-seo" aria-controls="panel-seo" aria-selected="false" data-tab="seo">SEO</button>
+        <button class="tab" role="tab" id="tab-content" aria-controls="panel-content" aria-selected="false" data-tab="content">Content Strategy</button>
+      </div>
+    </div>
+
+    <div class="panel is-active" id="panel-web" role="tabpanel" aria-labelledby="tab-web" tabindex="0">
+      <p class="panel-note">One-time build cost. Hosting and domains stay in your name — you own the site and the code outright when the project closes.</p>
+      <div class="price-grid"><article class="plan">
+  
+  <div class="plan-name">Basic</div>
+  <div class="plan-scope">Single-page static website</div>
+  <div class="plan-price">₹999</div>
+  <p class="plan-desc">A focused one-page site — hero, services, about and contact — built to load fast and look right on mobile.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan plan--featured">
+  <span class="plan-badge">Most chosen</span>
+  <div class="plan-name">Standard</div>
+  <div class="plan-scope">Simple multi-page website</div>
+  <div class="plan-price">₹2,499</div>
+  <p class="plan-desc">Up to five pages with a shared layout, working navigation and a contact form — the usual shape of a small business site.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Advanced</div>
+  <div class="plan-scope">Custom UI/UX and more features</div>
+  <div class="plan-price">₹4,999</div>
+  <p class="plan-desc">Bespoke interface work, custom interactions, animations and additional functionality such as filtering, forms or integrations.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article></div>
+      <div class="pricing-foot"><span>Prices in INR, exclusive of taxes</span><span>50% to start, 50% on delivery</span></div>
+    </div>
+
+    <div class="panel" id="panel-seo" role="tabpanel" aria-labelledby="tab-seo" tabindex="0" hidden>
+      <p class="panel-note">One-off engagements and ongoing retainers. Start with an audit if you are unsure what needs fixing — everything else follows from what it finds.</p>
+      <div class="price-grid price-grid--4"><article class="plan">
+  
+  <div class="plan-name">SEO Audit</div>
+  <div class="plan-scope">One-time</div>
+  <div class="plan-price">₹499</div>
+  <p class="plan-desc">Basic website SEO checks, technical issues and improvement suggestions.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">On-Page SEO</div>
+  <div class="plan-scope">Per website / basic scope</div>
+  <div class="plan-price">₹999</div>
+  <p class="plan-desc">Title tags, meta descriptions, headings and keyword placement.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Keyword Research</div>
+  <div class="plan-scope">One-time</div>
+  <div class="plan-price">₹1,499</div>
+  <p class="plan-desc">Keyword ideas, search intent and a basic competitor review.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Technical SEO</div>
+  <div class="plan-scope">Basic website scope</div>
+  <div class="plan-price">₹1,999</div>
+  <p class="plan-desc">Indexing checks, sitemap, robots.txt and technical recommendations.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Local SEO Setup</div>
+  <div class="plan-scope">One-time</div>
+  <div class="plan-price">₹2,499</div>
+  <p class="plan-desc">Google Business Profile setup or optimization, local keywords and business information.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Content SEO</div>
+  <div class="plan-scope">Per defined content batch</div>
+  <div class="plan-price">₹2,999</div>
+  <p class="plan-desc">Optimization of existing pages or articles within an agreed word and page limit.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan plan--featured">
+  <span class="plan-badge">Ongoing</span>
+  <div class="plan-name">Monthly SEO</div>
+  <div class="plan-scope">Ongoing service</div>
+  <div class="plan-price">₹3,999<span class="per">/mo</span></div>
+  <p class="plan-desc">Basic monitoring, on-page improvements, keyword tracking and monthly reporting.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">SEO Growth</div>
+  <div class="plan-scope">Ongoing service</div>
+  <div class="plan-price">₹4,999<span class="per">/mo</span></div>
+  <p class="plan-desc">Broader optimization, content planning, technical monitoring and performance reports.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article></div>
+      <div class="pricing-foot"><span>Prices in INR, exclusive of taxes</span><span>Retainers billed monthly, cancel with 30 days notice</span></div>
+    </div>
+
+    <div class="panel" id="panel-content" role="tabpanel" aria-labelledby="tab-content" tabindex="0" hidden>
+      <p class="panel-note">Per-article and per-pack rates, plus ongoing management. Every piece ships with a headline, source checks and a defined word count.</p>
+      <div class="price-grid price-grid--4"><article class="plan">
+  
+  <div class="plan-name">Short News Article</div>
+  <div class="plan-scope">Per article · 150–300 words</div>
+  <div class="plan-price">₹199</div>
+  <p class="plan-desc">Concise news updates based on verified sources, with a headline and key details.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Standard News Article</div>
+  <div class="plan-scope">Per article · 300–600 words</div>
+  <div class="plan-price">₹399</div>
+  <p class="plan-desc">Structured reporting with context, source verification and relevant developments.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">In-Depth Article</div>
+  <div class="plan-scope">Per article · 700–1,200 words</div>
+  <div class="plan-price">₹699</div>
+  <p class="plan-desc">Detailed explanations, background research, analysis and citations.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Research-Based Feature</div>
+  <div class="plan-scope">Per article · 1,000–1,500 words</div>
+  <div class="plan-price">₹999</div>
+  <p class="plan-desc">Original analysis, multiple sources, comparisons and deeper industry context.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Social Media Content Pack</div>
+  <div class="plan-scope">Per pack · 5 posts</div>
+  <div class="plan-price">₹499</div>
+  <p class="plan-desc">Captions, hooks and platform-appropriate copy for LinkedIn, Instagram or X.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Content Calendar</div>
+  <div class="plan-scope">Per monthly calendar</div>
+  <div class="plan-price">₹799</div>
+  <p class="plan-desc">A 30-day schedule with topics, formats, publishing dates and content objectives.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan">
+  
+  <div class="plan-name">Content Strategy Plan</div>
+  <div class="plan-scope">One-time project</div>
+  <div class="plan-price">₹1,499</div>
+  <p class="plan-desc">Audience research, content pillars, tone of voice, distribution channels and a basic editorial plan.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article><article class="plan plan--featured">
+  <span class="plan-badge">Ongoing</span>
+  <div class="plan-name">Monthly Content Management</div>
+  <div class="plan-scope">Ongoing service</div>
+  <div class="plan-price">₹4,999<span class="per">/mo</span></div>
+  <p class="plan-desc">A defined monthly combination of articles, social posts, scheduling and performance reporting.</p>
+  <a href="#/contact" class="plan-cta">Enquire <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</article></div>
+      <div class="pricing-foot"><span>Prices in INR, exclusive of taxes</span><span>Word counts are per article; revisions included</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Questions</div>
+      <h2 class="h-section">About the numbers.</h2>
+    </div>
+    <div class="faq reveal">
+      <details><summary>Do I own the code and the hosting? <span class="plus"></span></summary>
+        <div class="faq-body">Yes. Hosting, domains and any third-party accounts are set up in your name, and the source is handed over at the end of the project. There is no lock-in.</div>
+      </details>
+      <details><summary>How long does a website take? <span class="plus"></span></summary>
+        <div class="faq-body">A single-page build is usually ready within a week. Multi-page sites take one to two weeks, and custom UI work depends on scope — we give you a date before starting.</div>
+      </details>
+      <details><summary>Where should I start with SEO? <span class="plus"></span></summary>
+        <div class="faq-body">With the ₹499 audit. It tells you what is actually broken — indexing, metadata, speed, structure — before you spend on anything else. Most sites only need the audit plus one or two follow-up scopes.</div>
+      </details>
+      <details><summary>Can I combine services? <span class="plus"></span></summary>
+        <div class="faq-body">Yes, and it usually works better that way. A new build plus on-page SEO and a content calendar is the most common combination, since the three reinforce each other.</div>
+      </details>
+      <details><summary>How do payments work? <span class="plus"></span></summary>
+        <div class="faq-body">One-off projects are split into two payments — half to start, half on delivery. Monthly services are billed at the beginning of each cycle and can be stopped with 30 days notice.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Need something not listed?</h2>
+        <p>Most projects fit one of these scopes. If yours does not, describe it and we will quote it as a fixed price rather than an hourly rate.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn" href="mailto:connect.kimitech@gmail.com?subject=Project%20enquiry">Start the conversation <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#/contact">How to brief us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="projects" aria-label="Projects">
+
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>Projects</span></div>
+    <h1 class="h-display">Five tools,<br />no servers.</h1>
+    <p class="lede">Everything below runs in your browser. No accounts, no uploads, no analytics — and the source is open under the MIT licence.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="proj-grid reveal">
+      <a class="proj" href="https://itsfacil.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">01</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>Fácil</h3>
+  <p>Six media utilities in one place: compress video and images, and convert between media files and Base64 — all processed on your device. Nothing is uploaded, nothing is tracked.</p>
+  <div class="tags"><span class="tag">Media tools</span><span class="tag">Client-side</span><span class="tag">6 utilities</span></div>
+</a>
+      <a class="proj" href="https://getbeelink.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">02</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>BeeLink</h3>
+  <p>Send a file with a six-digit code. The recipient types the code, the file appears, one tap to save. Nothing is stored on a server.</p>
+  <div class="tags"><span class="tag">File sharing</span><span class="tag">OTP access</span><span class="tag">No storage</span></div>
+</a>
+      <a class="proj" href="https://openqrdev.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">03</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>OPENQR</h3>
+  <p>A QR code generator with broad customisation for colour, size and shape. Runs entirely in the browser, with no tracking and no uploads.</p>
+  <div class="tags"><span class="tag">Generator</span><span class="tag">MIT</span></div>
+</a>
+      <a class="proj" href="https://notaccess.vercel.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">04</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>NOT ACCESS</h3>
+  <p>Password-protected, decentralised and offline-first. Data stays local and verification happens in the browser, so there is no central point to break.</p>
+  <div class="tags"><span class="tag">PWA</span><span class="tag">Offline</span></div>
+</a>
+      <a class="proj" href="https://getclipo.netlify.app" target="_blank" rel="noopener">
+  <div class="proj-top">
+    <span class="proj-index">05</span>
+    <span class="proj-arrow"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+  </div>
+  <h3>CLIPO</h3>
+  <p>Background removal and image editing powered by on-device AI. Images never leave your machine and there are no processing fees.</p>
+  <div class="tags"><span class="tag">Browser AI</span><span class="tag">Editor</span></div>
+</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--soft">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <div class="eyebrow">Why we ship these</div>
+        <h2 class="h-section">Our own work is<br />the best test.</h2>
+      </div>
+      <div class="prose reveal">
+        <p>
+          Every tool here exists because we needed it and did not want to upload a client's file to
+          someone else's server to get the job done. Each one runs on the device, works offline where
+          it can, and asks for nothing.
+        </p>
+        <p>
+          They also keep the studio honest. Shipping a public tool means living with the consequences
+          of your own bundle size, your own accessibility choices and your own edge cases — the same
+          standards we hold client work to.
+        </p>
+        <p>
+          All five are MIT licensed. Fork them, change them, ship them inside your own product.
+          If you build something with one, we would like to see it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Want something like this for your team?</h2>
+        <p>We build internal tools and small products with the same constraints: fast, private, and maintainable by whoever comes next.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn" href="mailto:connect.kimitech@gmail.com?subject=Project%20enquiry">Start the conversation <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#/contact">How to brief us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="about" aria-label="About">
+
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>About</span></div>
+    <h1 class="h-display">Built by people<br />who ship the work.</h1>
+    <p class="lede">Kimi Technologies started as a publication about AI and robotics. It became a studio because writing about a technology only gets you so far.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <div class="eyebrow">The story</div>
+        <h2 class="h-section">Writers who build.<br />Builders who write.</h2>
+      </div>
+      <div class="prose reveal">
+        <p>
+          Kimi Technologies started in 2023 as an independent publication covering artificial
+          intelligence and robotics. The premise was simple: most coverage of the field is either too
+          shallow to be useful or too technical to be read.
+        </p>
+        <p>
+          Writing about a technology only gets you so far, so we started building with it — first
+          tools, then websites for other people. That is still the shape of the studio.
+          <strong>We are developers who write, and writers who build.</strong>
+        </p>
+        <blockquote class="pull">
+          When we recommend a technical SEO fix or a content plan, it comes from work we have already
+          done on our own products.
+        </blockquote>
+        <p>
+          Every project we release publicly is free, client-side and open source. It keeps us honest
+          about performance, privacy and the cost of unnecessary complexity — the same standards we
+          hold client work to.
+        </p>
+        <p>
+          We work with small teams, independent founders and the occasional larger group that wants
+          one accountable partner for the build, the search presence and the writing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">How we work</div>
+      <h2 class="h-section">Three rules we keep.</h2>
+    </div>
+    <div class="value-grid reveal">
+      <div class="value"><span class="vnum">01</span><h4>No black boxes</h4><p>Fixed scope, fixed price, and a written note on what is included before work starts. If something changes, you hear about it before the invoice does.</p></div>
+      <div class="value"><span class="vnum">02</span><h4>Boring technology wins</h4><p>Static files, semantic HTML and as little JavaScript as the job allows. It loads faster, breaks less, and anyone can pick it up later.</p></div>
+      <div class="value"><span class="vnum">03</span><h4>Privacy is a feature</h4><p>No trackers, no third-party scripts we would not defend, and no client data stored anywhere it does not need to be.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-label="Company facts">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-num">2023</div><div class="stat-label">Founded, independent since day one</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Free tools shipped and maintained</div></div>
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Service lines, one accountable partner</div></div>
+      <div class="stat"><div class="stat-num">MIT</div><div class="stat-label">Licence on every open-source release</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Get in touch</div>
+      <h2 class="h-section">Collaboration,<br />in either direction.</h2>
+      <p class="lede">If you are working in AI, robotics, media or digital strategy and share these values, we would like to hear from you.</p>
+    </div>
+    <div class="reveal"><a href="#/contact" class="btn">Contact the studio <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="contact" aria-label="Contact">
+
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>Contact</span></div>
+    <h1 class="h-display">Tell us what<br />you need built.</h1>
+    <p class="lede">Email is fastest. Include the scope, the deadline and a link to anything similar you like — you will get a fixed price and a start date back.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-list">
+          <a class="contact-row" href="mailto:connect.kimitech@gmail.com?subject=Project%20enquiry">
+            <span class="c-label">Email</span>
+            <span class="c-value">connect.kimitech@gmail.com</span>
+            <span class="c-go"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </a>
+          <a class="contact-row" href="https://www.linkedin.com/company/kimitechnologies/" target="_blank" rel="noopener">
+            <span class="c-label">LinkedIn</span>
+            <span class="c-value">Kimi Technologies</span>
+            <span class="c-go"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </a>
+          <a class="contact-row" href="https://share.google/tDiyLY1lhU5u5H3VA" target="_blank" rel="noopener">
+            <span class="c-label">Google</span>
+            <span class="c-value">Business profile</span>
+            <span class="c-go"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </a>
+          <a class="contact-row" href="#/pricing">
+            <span class="c-label">Pricing</span>
+            <span class="c-value">Rates and scopes</span>
+            <span class="c-go"><svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </div>
+        <p class="muted" style="font-size:.86rem;margin-top:22px;max-width:46ch">
+          Replies usually land within one working day. We keep client correspondence in email —
+          no forms, no CRM, nothing stored on this site.
+        </p>
+      </div>
+
+      <div class="brief reveal" data-d="1">
+        <h3>A useful first email</h3>
+        <ol>
+          <li>What it is — a site, a rewrite, an SEO fix or ongoing content.</li>
+          <li>Who it is for, and roughly how many pages or articles.</li>
+          <li>Anything you already have: copy, logo, domain, hosting.</li>
+          <li>Your deadline, and whether it is a hard one.</li>
+          <li>One or two sites you like, and what you like about them.</li>
+        </ol>
+        <p class="muted" style="font-size:.84rem;margin-top:18px">
+          Not sure yet? Send the problem in two sentences and we will ask the right questions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Prefer to start with pricing?</h2>
+        <p>Every scope and rate is published. Pick the closest fit, then tell us which one and what you need it for.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn" href="#/pricing">See all pricing <svg class="arw" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#/services">What we do</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="privacy" aria-label="Privacy Policy | Kimi Technologies">
+
+<section class="page-head">
+  <div class="container">
+    <div class="legal-wrap">
+      <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>Privacy</span></div>
+      <h1 class="h-display">Privacy Policy</h1>
+      <span class="updated">Last updated 29 October 2026</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="legal-wrap legal-body">
+      <p>Kimi Technologies keeps this website simple, and that extends to data. There is no login, no account and no tracking script. This page explains the little that applies.</p>
+
+      <h2>What we collect</h2>
+      <p>Nothing, unless you choose to write to us. This site has no forms, no cookies for tracking and no analytics. If you email us, we receive your email address and whatever you include in the message.</p>
+
+      <h2>How we use it</h2>
+      <p>Email is used to reply to your enquiry and, if a project goes ahead, to run it. We do not add you to a mailing list, and we do not sell or share contact details with third parties.</p>
+
+      <h2>Third parties</h2>
+      <p>This site is served as static files and loads typefaces from Google Fonts, which may log the request. Our open-source tools — Fácil, BeeLink, OPENQR, NOT ACCESS and CLIPO — are hosted separately on Vercel and Netlify and each run entirely in your browser; no file you process in them is uploaded to us.</p>
+
+      <h2>Cookies and local storage</h2>
+      <p>This site sets no cookies. Two preferences are stored in your browser's local and session storage on your device: your colour theme, and the animation used for the transition between pages. Neither is transmitted anywhere.</p>
+
+      <h2>Your rights</h2>
+      <p>Because we hold no personal data beyond correspondence you initiate, there is nothing to request or delete. If you would like an email exchange removed, write to <a href="mailto:connect.kimitech@gmail.com">connect.kimitech@gmail.com</a> and we will do so.</p>
+    </div>
+  </div>
+</section>
+
+</section>
+<section class="view" data-view="terms" aria-label="Terms of Service | Kimi Technologies">
+
+<section class="page-head">
+  <div class="container">
+    <div class="legal-wrap">
+      <div class="crumbs"><a href="#/home">Home</a><span class="sep">/</span><span>Terms</span></div>
+      <h1 class="h-display">Terms of Service</h1>
+      <span class="updated">Last updated 29 October 2026</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="legal-wrap legal-body">
+      <p>These terms cover use of this website and the open-source tools published by Kimi Technologies. By using either, you accept them.</p>
+
+      <h2>Acceptable use</h2>
+      <p>Use this site lawfully. Do not attempt to disrupt it, gain unauthorised access to it, or interfere with anyone else's use of it.</p>
+
+      <h2>Services and pricing</h2>
+      <p>Prices listed on the pricing page are starting points in Indian rupees and exclude applicable taxes. Each engagement is confirmed in writing with a defined scope, a fixed fee and a delivery date before work begins. Anything outside that scope is quoted separately.</p>
+
+      <h2>Intellectual property</h2>
+      <p>The text, design and graphics of this website belong to Kimi Technologies and may be quoted or referenced with credit and a link back. Client work transfers to the client on final payment. Our open-source tools are released under the MIT Licence and may be used, modified and redistributed under its terms.</p>
+
+      <h2>Liability</h2>
+      <p>This website and the tools linked from it are provided "as is", without warranty of any kind. We do not guarantee that any tool is error-free or fit for a particular purpose, and we are not liable for indirect or consequential loss arising from their use.</p>
+
+      <h2>Governing law</h2>
+      <p>These terms are governed by the laws of India, and any dispute falls under the exclusive jurisdiction of Indian courts.</p>
+
+      <h2>Changes</h2>
+      <p>We may update these terms. The current version always lives on this page, and continued use of the site constitutes acceptance of it.</p>
+    </div>
+  </div>
+</section>
+
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#/home" class="logo">
+          <span class="logo-mark"><img src="data:image/png;base64,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" alt="" width="26" height="26" /></span>
+          <span>Kimi <span class="sub">Technologies</span></span>
+        </a>
+        <p>Independent studio for web development, search and content. Publisher of free, privacy-first browser tools.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#/services::web">Web Development</a></li>
+          <li><a href="#/services::seo">Search Engine Optimization</a></li>
+          <li><a href="#/services::content">Content Strategy</a></li>
+          <li><a href="#/pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Work</h5>
+        <ul>
+          <li><a href="#/projects">All projects</a></li>
+          <li><a href="https://itsfacil.vercel.app" target="_blank" rel="noopener">Fácil</a></li>
+          <li><a href="https://getbeelink.vercel.app" target="_blank" rel="noopener">BeeLink</a></li>
+          <li><a href="https://openqrdev.vercel.app" target="_blank" rel="noopener">OPENQR</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:connect.kimitech@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/company/kimitechnologies/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://share.google/tDiyLY1lhU5u5H3VA" target="_blank" rel="noopener">Google Business</a></li>
+          <li><a href="#/contact">Project brief</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Kimi Technologies. All rights reserved.</span>
+      <div class="legal-links">
+        <a href="#/privacy">Privacy Policy</a>
+        <a href="#/terms">Terms of Service</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+var DATA = {"home": {"title": "Kimi Technologies \u2014 Web Development, SEO & Content Strategy", "desc": "Independent studio building fast websites, improving search visibility and shaping content strategy. Plus five free, privacy-first browser tools."}, "services": {"title": "Services \u2014 Web Development, SEO & Content Strategy | Kimi Technologies", "desc": "Web development from \u20b9999, SEO from \u20b9499 and content strategy from \u20b9199 \u2014 three services built to work together."}, "pricing": {"title": "Pricing \u2014 Websites, SEO and Content | Kimi Technologies", "desc": "Full price list: web development \u20b9999\u2013\u20b94,999, SEO audits from \u20b9499 and content packages from \u20b9199, plus monthly retainers."}, "projects": {"title": "Projects \u2014 Five Free, Privacy-First Tools | Kimi Technologies", "desc": "F\u00e1cil, BeeLink, OPENQR, NOT ACCESS and CLIPO \u2014 free, client-side, MIT-licensed tools that run entirely in your browser."}, "about": {"title": "About \u2014 An Independent Studio | Kimi Technologies", "desc": "Founded in 2023 as a publication on AI and robotics, now a studio for web development, search and content."}, "contact": {"title": "Contact \u2014 Start a Project | Kimi Technologies", "desc": "Email connect.kimitech@gmail.com with your scope and deadline for a fixed price and a start date."}, "privacy": {"title": "Privacy Policy | Kimi Technologies", "desc": "What this site does and does not collect. No forms, no cookies, no analytics."}, "terms": {"title": "Terms of Service | Kimi Technologies", "desc": "Terms covering use of this website, client engagements and the open-source tools we publish."}};
+
+(function () {
+  'use strict';
+
+  var doc = document.documentElement;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var header = document.getElementById('siteHeader');
+  var drawer = document.getElementById('drawer');
+  var scrim = document.getElementById('drawerScrim');
+  var menuBtn = document.getElementById('menuBtn');
+  var themeToggle = document.getElementById('themeToggle');
+  var main = document.getElementById('main');
+
+  var views = {};
+  Array.prototype.forEach.call(document.querySelectorAll('.view'), function (v) {
+    views[v.getAttribute('data-view')] = v;
+  });
+
+  var current = null;
+  var navigating = false;
+
+  /* ---------------- theme ---------------- */
+  function applyTheme(t) {
+    doc.setAttribute('data-theme', t);
+    var m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute('content', t === 'dark' ? '#08090c' : '#ffffff');
+  }
+  if (themeToggle) {
+    themeToggle.addEventListener('click', function () {
+      var next = doc.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem('kt-theme', next); } catch (e) {}
+    });
+  }
+
+  /* ---------------- header ---------------- */
+  function onScroll() {
+    if (header) header.classList.toggle('is-stuck', window.scrollY > 8);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------------- drawer ---------------- */
+  var lastFocus = null;
+  function openDrawer() {
+    lastFocus = document.activeElement;
+    drawer.classList.add('is-open');
+    drawer.removeAttribute('aria-hidden');
+    scrim.classList.add('is-open');
+    menuBtn.setAttribute('aria-expanded', 'true');
+    header.classList.add('is-open');
+    document.body.classList.add('no-scroll');
+    var first = drawer.querySelector('a, button');
+    if (first) setTimeout(function () { first.focus({ preventScroll: true }); }, 200);
+  }
+  function closeDrawer() {
+    if (!drawer.classList.contains('is-open')) return;
+    drawer.classList.remove('is-open');
+    drawer.setAttribute('aria-hidden', 'true');
+    scrim.classList.remove('is-open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    header.classList.remove('is-open');
+    document.body.classList.remove('no-scroll');
+    if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
+  }
+  menuBtn.addEventListener('click', function () {
+    if (drawer.classList.contains('is-open')) closeDrawer(); else openDrawer();
+  });
+  scrim.addEventListener('click', closeDrawer);
+  document.getElementById('drawerClose').addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeDrawer(); });
+
+  /* ---------------- reveal ---------------- */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  var pending = revealEls.slice();
+  var io = null;
+
+  if (reduce || !('IntersectionObserver' in window)) {
+    revealEls.forEach(function (el) { el.classList.add('in'); });
+    pending = [];
+  } else {
+    io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+        var at = pending.indexOf(entry.target);
+        if (at > -1) pending.splice(at, 1);
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+    revealEls.forEach(function (el) { io.observe(el); });
+  }
+
+  function sweep() {
+    for (var i = pending.length - 1; i >= 0; i--) {
+      var el = pending[i];
+      if (el.getBoundingClientRect().top < window.innerHeight + 120) {
+        el.classList.add('in');
+        if (io) io.unobserve(el);
+        pending.splice(i, 1);
+      }
+    }
+  }
+  var queued = false;
+  window.addEventListener('scroll', function () {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(function () { queued = false; sweep(); });
+  }, { passive: true });
+  window.addEventListener('resize', sweep, { passive: true });
+
+  /* ---------------- pricing tabs ---------------- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  function selectTab(name) {
+    tabs.forEach(function (t) {
+      var on = t.getAttribute('data-tab') === name;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      var panel = document.getElementById('panel-' + t.getAttribute('data-tab'));
+      if (panel) {
+        panel.classList.toggle('is-active', on);
+        if (on) panel.removeAttribute('hidden'); else panel.setAttribute('hidden', '');
+      }
+    });
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener('click', function () { selectTab(tab.getAttribute('data-tab')); });
+    tab.addEventListener('keydown', function (e) {
+      var dir = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!dir) return;
+      e.preventDefault();
+      var next = tabs[(i + dir + tabs.length) % tabs.length];
+      next.focus();
+      selectTab(next.getAttribute('data-tab'));
+    });
+  });
+
+  /* ---------------- transitions ---------------- */
+  var POOL = ['columns', 'rise', 'disc', 'sweep', 'fade'];
+  var COVER_MS = { columns: 415, rise: 415, disc: 445, sweep: 415, fade: 250 };
+  var REVEAL_MS = 430;
+  var poolIndex = Math.floor(Math.random() * POOL.length);
+
+  function nextAnim() {
+    var anim = POOL[poolIndex % POOL.length];
+    poolIndex++;
+    if (poolIndex % POOL.length === 0) poolIndex = Math.floor(Math.random() * POOL.length);
+    return anim;
+  }
+
+  function clearPT() {
+    doc.classList.remove('pt-enter', 'pt-reveal', 'pt-cover');
+    doc.removeAttribute('data-anim');
+    doc.style.removeProperty('--ox');
+    doc.style.removeProperty('--oy');
+  }
+
+  /* ---------------- routing ---------------- */
+  function parseRoute(hash) {
+    var h = (hash || '').replace(/^#\/?/, '');
+    var anchor = null;
+    var params = {};
+    var ai = h.indexOf('::');
+    if (ai > -1) { anchor = h.slice(ai + 2); h = h.slice(0, ai); }
+    var qi = h.indexOf('?');
+    if (qi > -1) {
+      h.slice(qi + 1).split('&').forEach(function (kv) {
+        var p = kv.split('=');
+        if (p[0]) params[decodeURIComponent(p[0])] = decodeURIComponent(p[1] || '');
+      });
+      h = h.slice(0, qi);
+    }
+    return { view: h || 'home', anchor: anchor, params: params };
+  }
+
+  function applyRoute(r) {
+    var name = views[r.view] ? r.view : 'home';
+    Object.keys(views).forEach(function (k) {
+      views[k].classList.toggle('is-active', k === name);
+    });
+    current = name;
+
+    var meta = DATA[name] || DATA.home;
+    document.title = meta.title;
+    var d = document.querySelector('meta[name="description"]');
+    if (d) d.setAttribute('content', meta.desc);
+    var ot = document.querySelector('meta[property="og:title"]');
+    if (ot) ot.setAttribute('content', meta.title);
+    var od = document.querySelector('meta[property="og:description"]');
+    if (od) od.setAttribute('content', meta.desc);
+
+    var target = '#/' + name;
+    Array.prototype.forEach.call(document.querySelectorAll('.drawer-nav a'), function (a) {
+      if (a.getAttribute('href') === target) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+
+    if (r.params && r.params.tab) selectTab(r.params.tab);
+
+    if (r.anchor) {
+      var el = document.getElementById(r.anchor);
+      if (el) {
+        var y = el.getBoundingClientRect().top + window.pageYOffset - (header.offsetHeight + 16);
+        window.scrollTo(0, y);
+      } else {
+        window.scrollTo(0, 0);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+
+    // let assistive tech know the page changed
+    var h1 = views[name].querySelector('h1');
+    if (h1) {
+      h1.setAttribute('tabindex', '-1');
+      try { h1.focus({ preventScroll: true }); } catch (e) {}
+    }
+
+    requestAnimationFrame(sweep);
+    setTimeout(sweep, 80);
+  }
+
+  var navSeq = 0;
+
+  function navigate(r, opts) {
+    opts = opts || {};
+    if (navigating) return;
+    var name = views[r.view] ? r.view : 'home';
+
+    if (name === current && !r.anchor) {
+      if (opts.push) {
+        try { history.replaceState(null, '', '#/' + name); } catch (e) {}
+      }
+      return;
+    }
+
+    if (reduce) {
+      applyRoute(r);
+      if (opts.push) { try { history.pushState(null, '', '#/' + name); } catch (e) {} }
+      return;
+    }
+
+    var myId = ++navSeq;
+    navigating = true;
+
+    var anim = nextAnim();
+    var wait = COVER_MS[anim] || 415;
+    var x = opts.x != null ? opts.x : window.innerWidth / 2;
+    var y = opts.y != null ? opts.y : window.innerHeight / 2;
+
+    doc.style.setProperty('--ox', x + 'px');
+    doc.style.setProperty('--oy', y + 'px');
+    doc.setAttribute('data-anim', anim);
+    void doc.offsetWidth;
+    doc.classList.add('pt-cover');
+
+    var swapped = false;
+
+    function swap() {
+      if (swapped || myId !== navSeq) return;
+      swapped = true;
+      try {
+        applyRoute(r);
+        if (opts.push) history.pushState(null, '', '#/' + name);
+      } catch (e) {
+        try { window.location.hash = '#/' + name; } catch (e2) {}
+      }
+      doc.classList.add('pt-enter');
+      doc.classList.remove('pt-cover');
+      reveal();
+    }
+
+    function reveal() {
+      if (myId !== navSeq) return;
+      var fired = false;
+      function go() {
+        if (fired || myId !== navSeq) return;
+        fired = true;
+        doc.classList.add('pt-reveal');
+        setTimeout(function () {
+          if (myId !== navSeq) return;
+          clearPT();
+          navigating = false;
+        }, REVEAL_MS);
+      }
+      // rAF keeps the reveal in step with paint; the timer is the backup
+      requestAnimationFrame(function () { requestAnimationFrame(go); });
+      setTimeout(go, 120);
+    }
+
+    setTimeout(swap, wait);
+    // per-navigation watchdogs: they never touch a newer transition
+    setTimeout(function () { if (myId === navSeq) swap(); }, wait + 450);
+    setTimeout(function () {
+      if (myId !== navSeq) return;
+      clearPT();
+      navigating = false;
+    }, wait + REVEAL_MS + 900);
+  }
+
+  /* ---------------- link handling ---------------- */
+  document.addEventListener('click', function (e) {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href');
+
+    if (href === '#top') {
+      e.preventDefault();
+      closeDrawer();
+      window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+      return;
+    }
+    if (!href || href.charAt(0) !== '#') return;   // external, mailto, tel
+
+    e.preventDefault();
+    closeDrawer();
+    navigate(parseRoute(href), { push: true, x: e.clientX, y: e.clientY });
+  });
+
+  window.addEventListener('popstate', function () {
+    var r = parseRoute(window.location.hash);
+    if (navigating) {
+      clearPT();
+      navigating = false;
+      applyRoute(r);
+      return;
+    }
+    navigate(r, { push: false });
+  });
+
+  /* ---------------- recovery ---------------- */
+  // back/forward cache, or returning to a tab mid transition
+  window.addEventListener('pageshow', function (e) {
+    if (e.persisted) { clearPT(); navigating = false; }
+  });
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) return;
+    setTimeout(function () {
+      if (navigating) return;
+      if (doc.classList.contains('pt-cover') || doc.classList.contains('pt-enter')) clearPT();
+    }, 700);
+  });
+
+  /* ---------------- boot ---------------- */
+  var initial = parseRoute(window.location.hash);
+  applyRoute(initial);
+  sweep();
+  var yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+})();
+
+</script>
+</body>
+</html>
