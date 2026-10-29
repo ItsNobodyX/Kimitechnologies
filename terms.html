@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Terms of Service | Kimi Technologies</title>
+<meta name="description" content="Terms covering use of this website, client engagements and the open-source tools we publish." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://kimitechnologies.vercel.app/terms.html" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#08090c" media="(prefers-color-scheme: dark)" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="msapplication-TileColor" content="#0354d4" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Terms of Service | Kimi Technologies" />
+<meta property="og:description" content="Terms covering use of this website, client engagements and the open-source tools we publish." />
+<meta property="og:url" content="https://kimitechnologies.vercel.app/terms.html" />
+<meta property="og:site_name" content="Kimi Technologies" />
+<meta property="og:locale" content="en_IN" />
+<meta property="og:image" content="https://kimitechnologies.vercel.app/og-image.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Kimi Technologies — build it well, get it found, say it clearly" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Terms of Service | Kimi Technologies" />
+<meta name="twitter:description" content="Terms covering use of this website, client engagements and the open-source tools we publish." />
+<meta name="twitter:image" content="https://kimitechnologies.vercel.app/og-image.jpg" />
+<meta name="twitter:image:alt" content="Kimi Technologies — build it well, get it found, say it clearly" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://kimitechnologies.vercel.app/"},
+    {"@type": "ListItem", "position": 2, "name": "Terms of Service", "item": "https://kimitechnologies.vercel.app/terms.html"}
+  ]
+}
+</script>
+<script>
+/* theme before first paint */
+(function () {
+  try {
+    var t = localStorage.getItem('kt-theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) {}
+})();
+/* restore the curtain for the incoming page */
+(function () {
+  try {
+    var raw = sessionStorage.getItem('kt-nav');
+    if (!raw) return;
+    sessionStorage.removeItem('kt-nav');
+    var d = JSON.parse(raw);
+    var h = document.documentElement;
+    h.setAttribute('data-anim', d.a || 'columns');
+    if (d.x != null) { h.style.setProperty('--ox', d.x + 'px'); h.style.setProperty('--oy', d.y + 'px'); }
+    h.classList.add('pt-enter');
+  } catch (e) {}
+})();
+</script>
+</head>
+<body id="top">
+<div class="pt" aria-hidden="true">
+  <div class="pt-panels"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="pt-disc"></div>
+</div>
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="Kimi Technologies — home">
+      <span class="logo-mark"><img src="assets/logo-mark.png" alt="" width="26" height="26" /></span>
+      <span>Kimi <span class="sub">Technologies</span></span>
+    </a>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="contact.html" class="btn btn--sm">Start a project</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="drawer">
+        <span class="mtxt">Menu</span>
+        <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="drawer-scrim" id="drawerScrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Site menu">
+  <div class="drawer-top">
+    <span class="drawer-label">Menu</span>
+    <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <nav class="drawer-nav" aria-label="Pages">
+    <a href="index.html"><span class="idx">01</span><span class="lbl">Home</span></a><a href="services.html"><span class="idx">02</span><span class="lbl">Services</span></a><a href="pricing.html"><span class="idx">03</span><span class="lbl">Pricing</span></a><a href="projects.html"><span class="idx">04</span><span class="lbl">Projects</span></a><a href="about.html"><span class="idx">05</span><span class="lbl">About</span></a><a href="contact.html"><span class="idx">06</span><span class="lbl">Contact</span></a>
+  </nav>
+  <div class="drawer-foot">
+    <a class="drawer-mail" href="mailto:connect.kimitech@gmail.com">connect.kimitech@gmail.com</a>
+    <div class="drawer-socials">
+      <a href="https://www.linkedin.com/company/kimitechnologies/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://share.google/tDiyLY1lhU5u5H3VA" target="_blank" rel="noopener">Google Business</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+</aside>
+<main id="main">
+
+<section class="page-head">
+  <div class="container">
+    <div class="legal-wrap">
+      <div class="crumbs"><a href="index.html">Home</a><span class="sep">/</span><span>Terms</span></div>
+      <h1 class="h-display">Terms of Service</h1>
+      <span class="updated">Last updated 29 October 2026</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="legal-wrap legal-body">
+      <p>These terms cover use of this website and the open-source tools published by Kimi Technologies. By using either, you accept them.</p>
+
+      <h2>Acceptable use</h2>
+      <p>Use this site lawfully. Do not attempt to disrupt it, gain unauthorised access to it, or interfere with anyone else's use of it.</p>
+
+      <h2>Services and pricing</h2>
+      <p>Prices listed on the pricing page are starting points in Indian rupees and exclude applicable taxes. Each engagement is confirmed in writing with a defined scope, a fixed fee and a delivery date before work begins. Anything outside that scope is quoted separately.</p>
+
+      <h2>Intellectual property</h2>
+      <p>The text, design and graphics of this website belong to Kimi Technologies and may be quoted or referenced with credit and a link back. Client work transfers to the client on final payment. Our open-source tools are released under the MIT Licence and may be used, modified and redistributed under its terms.</p>
+
+      <h2>Liability</h2>
+      <p>This website and the tools linked from it are provided "as is", without warranty of any kind. We do not guarantee that any tool is error-free or fit for a particular purpose, and we are not liable for indirect or consequential loss arising from their use.</p>
+
+      <h2>Governing law</h2>
+      <p>These terms are governed by the laws of India, and any dispute falls under the exclusive jurisdiction of Indian courts.</p>
+
+      <h2>Changes</h2>
+      <p>We may update these terms. The current version always lives on this page, and continued use of the site constitutes acceptance of it.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-mark"><img src="assets/logo-mark.png" alt="" width="26" height="26" /></span>
+          <span>Kimi <span class="sub">Technologies</span></span>
+        </a>
+        <p>Independent studio for web development, search and content. Publisher of free, privacy-first browser tools.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html#web">Web Development</a></li>
+          <li><a href="services.html#seo">Search Engine Optimization</a></li>
+          <li><a href="services.html#content">Content Strategy</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Work</h5>
+        <ul>
+          <li><a href="projects.html">All projects</a></li>
+          <li><a href="https://itsfacil.vercel.app" target="_blank" rel="noopener">Fácil</a></li>
+          <li><a href="https://getbeelink.vercel.app" target="_blank" rel="noopener">BeeLink</a></li>
+          <li><a href="https://openqrdev.vercel.app" target="_blank" rel="noopener">OPENQR</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:connect.kimitech@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/company/kimitechnologies/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://share.google/tDiyLY1lhU5u5H3VA" target="_blank" rel="noopener">Google Business</a></li>
+          <li><a href="contact.html">Project brief</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Kimi Technologies. All rights reserved.</span>
+      <div class="legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
